@@ -1,0 +1,46 @@
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000000;
+}
+
+li{
+  display: inline;
+  float: left;
+}
+
+li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #b82856;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+.row{
+  margin: -5px;
+}
+
+.card{
+  padding: 16px;
+  text-align: center;
+  background-color: crimson;
+}
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
